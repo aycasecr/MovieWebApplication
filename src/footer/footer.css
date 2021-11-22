@@ -1,0 +1,32 @@
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        height: auto;
+        width: 100%;
+        background: #ee66c414;
+        padding-top: 1rem;
+        text-align: center;
+      }
+.footer-text-div >p {
+    color: #666666;
+    font-size: 13px;
+    font-weight: bold;
+    width: fit-content;
+}
+.footer-text-div, .images{
+        justify-content: center;
+}
+.signature-text{
+        color:#999999;
+        font-size: 13px;
+        font-weight: bold;
+}
+.images{
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        width: auto;
+        justify-content: center;
+}
+

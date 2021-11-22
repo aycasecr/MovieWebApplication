@@ -1,0 +1,13 @@
+.movie-detail-container{
+    background-image: url('./images/main_image.webp');
+    
+}
+.movie-detail-row {
+justify-content: center;
+margin-right: 0px !important;
+margin-left:0px !important;
+}
+.movie-title{
+    color: white;
+    font-size: 48px;
+}

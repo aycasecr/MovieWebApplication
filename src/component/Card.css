@@ -1,0 +1,27 @@
+.card{
+    border-radius: 6px;
+    border: none !important;
+    box-shadow: 0px 3px #41464b14;
+    /* position: absolute;
+    justify-content: flex-end;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px!important; */
+    
+}
+.movie-image{
+    width: -webkit-fill-available !important;
+}
+.card-info>p{
+ margin: 0 !important; 
+}
+.card-info{
+    padding-left: 2rem !important;
+}
+.movie-title{
+    font-size: 16px;
+    font-weight: bolder;
+}
+.movie-detail{
+    font-size: 14px;
+}

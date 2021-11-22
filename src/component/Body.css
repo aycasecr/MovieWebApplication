@@ -1,0 +1,22 @@
+
+
+
+.container{
+ /* margin-top: 3rem;
+ align-items: center;
+    margin-right: 0px !important;
+    margin-left:  0px !important; */
+}
+.category-title{
+    font-size: 34px;
+    font-weight: bolder;
+    color: #010101;
+}
+.category-row{
+    margin-top: 3rem;
+    margin-left: 2rem !important;
+    margin-right: 0px !important;
+}
+/* .main-column{
+    padding-left: 2rem;
+} */
