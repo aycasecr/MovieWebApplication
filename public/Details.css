@@ -1,15 +1,12 @@
 .movie-detail-container{
-    background-image: url('./images/main_image.webp');
-    padding: 6rem 0rem !important;
+    background-image: url('/src/images/main_image.webp');
+    padding: 12rem 0rem !important;
     
 }
 .movie-detail-row {
 justify-content: center;
 margin-right: 0px !important;
 margin-left:0px !important;
-}
-.movie-div{
-    padding-top: 5rem;
 }
 .movie-title{
     color: white;
@@ -66,9 +63,5 @@ width: fit-content;
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
-    .movie-detail-container{
-        padding: 12rem 0rem !important;
-        
     }
   }

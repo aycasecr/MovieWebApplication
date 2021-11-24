@@ -1,12 +1,12 @@
-.navbar {
+.navbar-detail {
     /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
     height: 100px;
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     /* justify-content: center; */
     /* align-items: start !important; */
     font-size: 1.2rem;
-    background-image:  url('../images/main_image.webp');
+    background-image:  url('/src/images/main_image.webp');
   }
   .nav-text-first,.nav-text-second{
     color: white;
@@ -56,8 +56,9 @@
     padding: 0.5rem 1rem;
   
   }
-  .movie-logo{
-    margin-left: 7rem;
+  .movie-logo-detail{
+    margin-left: 2rem;
+    margin-top: 1rem;
   }
   
   .nav-links:hover {
@@ -100,7 +101,7 @@
     }
   
     .nav-menu.active {
-      background-image:  url('../images/main_image.webp');
+      background-image:  url('/src/images/main_image.webp');
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -179,7 +180,7 @@
       /* margin-bottom: 11rem; */
      
     }
-    .navbar{
+    .navbar-detail{
       justify-content: start;
       align-items: start;
     }

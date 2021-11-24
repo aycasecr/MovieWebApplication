@@ -1,25 +1,25 @@
 import React from 'react';
+import { BrowserRouter as Router, Switch, Route, Link, Routes } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Navbar from './component/Navbar';
-import Body from './component/Body';
-import Footer from './footer/footer';
+import Home from './component/Home';
 import Details from './Details';
 import About from './About';
 
-class App extends React.Component {
 
-  render() {
-    return (
-      <div className="maincontainer">
-        <Navbar />
-        <Body />
-        <Footer />
-        {/* <Details /> */}
+function App() {
+  return (
+
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/:id" element={<Details />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </div>
-    )
-  };
+    </Router>
+  )
 }
 
 export default App;

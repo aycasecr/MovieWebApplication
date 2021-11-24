@@ -5,8 +5,9 @@
         bottom: 0;
         height: auto;
         width: 100%;
-        background: #ee66c414;
-        padding-top: 1rem;
+        background-color: lavenderblush;
+        background: lavenderblush;
+        padding-top: 0.5rem;
         text-align: center;
       }
 .footer-text-div >p {
@@ -22,6 +23,7 @@
         color:#999999;
         font-size: 13px;
         font-weight: bold;
+        margin-bottom: 0.5rem ;
 }
 .images{
         display: grid;

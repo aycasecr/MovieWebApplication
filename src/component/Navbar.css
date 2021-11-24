@@ -6,7 +6,7 @@
   /* justify-content: center; */
   /* align-items: start !important; */
   font-size: 1.2rem;
-  background-image:  url('../images/main_image.webp');
+  background-image:   url('/src/images/main_image.webp');
 }
 .nav-text-first,.nav-text-second{
   color: white;
@@ -100,7 +100,7 @@
   }
 
   .nav-menu.active {
-    background-image:  url('../images/main_image.webp');
+    background-image:   url('/src/images/main_image.webp');
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;
