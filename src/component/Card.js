@@ -8,7 +8,7 @@ function Card(item) {
     const posterURL = "https://image.tmdb.org/t/p/original";
     return (
 
-        <div class="col-3 card" id={item.item.id} >
+        <div className="col-3 card" id={item.item.id} >
             <Link to={`/${item.item.id}`}>
                 <div>
                     <img className="movie-image" src={posterURL + item.item.backdrop_path} />

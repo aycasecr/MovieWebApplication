@@ -13,10 +13,7 @@ function Details(props) {
     const posterURL = "https://image.tmdb.org/t/p/original";
     const { id } = useParams();
     const apiDetail = axios.create({
-        baseURL: "https://api.themoviedb.org/3/movie/" + id + "?api_key=374c33af371a54f60b20532a4a9e7791&language=en-US",
-        params: {
-            api_key: "374c33af371a54f60b20532a4a9e7791"
-        }
+        baseURL: "https://api.themoviedb.org/3/movie/" + id + "?api_key=" + process.env.REACT_APP_API_KEY + "&language=en-US",
     });
     let isError = false;
     useEffect(() => {
