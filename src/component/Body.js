@@ -3,22 +3,22 @@ import './Body.css';
 import Card from "./Card";
 import FilmIcon from "../images/film_icon.webp";
 import axios from 'axios';
-
+import { TMDB_API_KEY } from "../apis/tmdbs/key";
 
 const api = axios.create({
-    baseURL: "https://api.themoviedb.org/3/movie/popular?api_key=" + process.env.REACT_APP_API_KEY + "&language=en-US&page=1",
+    baseURL: "https://api.themoviedb.org/3/movie/popular?api_key=" + TMDB_API_KEY + "&language=en-US&page=1",
 
 });
 
 const api2 = axios.create({
-    baseURL: "https://api.themoviedb.org/3/movie/top_rated?api_key=" + process.env.REACT_APP_API_KEY + "&language=en-US&page=1",
+    baseURL: "https://api.themoviedb.org/3/movie/top_rated?api_key=" + TMDB_API_KEY + "&language=en-US&page=1",
 });
 function Body() {
     let isError = false;
     const [movies, setMovies] = useState([]);
     const [mostViewedMovies, setMostViewedMovies] = useState([]);
     const posterURL = "https://image.tmdb.org/t/p/original";
-    console.log("APIKEY" + process.env.REACT_APP_API_KEY);
+    console.log("APIKEY" + TMDB_API_KEY);
 
     useEffect(() => {
         const getPopular = async () => {
