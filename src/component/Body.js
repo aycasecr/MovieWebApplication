@@ -18,7 +18,7 @@ function Body() {
     const [movies, setMovies] = useState([]);
     const [mostViewedMovies, setMostViewedMovies] = useState([]);
     const posterURL = "https://image.tmdb.org/t/p/original";
-    console.log("APIKEY" + TMDB_API_KEY);
+
 
     useEffect(() => {
         const getPopular = async () => {
